@@ -21,10 +21,20 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/btnHola"
         android:text="HOLA"
         android:textColor="#ff0000"
         app:layout_constraintTop_toBottomOf="@+id/texto"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALUDO"
+        app:layout_constraintTop_toBottomOf="@+id/btnHola"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
 
 </android.support.constraint.ConstraintLayout>
